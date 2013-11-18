@@ -3,22 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <title>Tech Test</title>
-    <link href="css/ui-lightness/jquery-ui-1.10.3.custom.css" rel="stylesheet">
-    <script src="js/jquery-1.9.1.js"></script>
-    <script src="js/jquery-ui-1.10.3.custom.js"></script>
-    <script src="js/underscore-min.js"></script>
+    <link href="css/ui-lightness/jquery-ui-1.10.3.custom.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/lib/jquery-1.9.1.min.js"></script>
+    <script src="js/lib/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/lib/underscore-min.js"></script>
     <script src="js/javascript.js"></script>
   </head>
   <body>
     <h2>Filters</h2>
     <form>
-      <label>Name:</label>
+      <label>Name:</label><br />
       <input id="text-filter-name" type="text" />
       <input type="submit" value="Filter" />
       <!-- <input type="reset" /> -->
     </form>
     <form>
-      <label>Location:</label>
+      <label>Location:</label><br />
       <input id="text-filter-location" type="text" />
       <input type="submit" value="Filter" />
       <!-- <input type="reset" /> -->
@@ -46,10 +47,7 @@
     <br />
     <button id="reset-filters">Reset filters</button>
     <br />
-    <table border="1">
-      <thead id="table-head"></thead>
-      <tbody id="table-body"></tbody>
-    </table>
+	<h2>Result Set</h2>
     <table border="1">
       <thead id="table-head1"></thead>
       <tbody id="table-body1"></tbody>

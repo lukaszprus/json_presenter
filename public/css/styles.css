@@ -1,0 +1,12 @@
+th {
+padding-right: 30px;
+background: url("../img/arrow_up_down_sort.gif") no-repeat scroll center right rgba(0, 0, 0, 0);
+}
+
+th.sort_asc {
+background: url("../img/arrow_up_down_sort_up.gif") no-repeat scroll center right rgba(0, 0, 0, 0);
+}
+
+th.sort_desc {
+background: url("../img/arrow_up_down_sort_down.gif") no-repeat scroll center right rgba(0, 0, 0, 0);
+}
